@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" width="40px" href="#">
+        <h1 href="#">TO-<span style="color: rgb(0, 167, 214);">DO</span> LIST</h1>
+    </div>
+    <div class="content">
+        <div class="form">
+            <form id="new-task-form" action="index.php" method="POST">
+                <input id="task-input" autocomplete="off" placeholder="Add New Task..." type="text" name="todo">
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="data">
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

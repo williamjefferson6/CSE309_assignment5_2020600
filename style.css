@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lemon/Milk', sans-serif;
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-size: large;
+}
+
+.header h1{
+    padding-left: 5px;
+}
+
+.header img{
+    padding-right: 5px;
+}
+
+.content {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#data{
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tasks{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-position: inside;
+}
+
+li{
+    width: 90vw;
+    height: 8vh;
+    list-style-type: none;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(4, 91, 135);
+    border-radius: 10px;
+    background-color: rgba(142, 172, 178, 0.2);
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+li:hover{
+    background-color: rgba(127, 159, 165, 0.4);
+}
+
+.form{
+    width: 90vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(4, 91, 135);
+    border-radius: 10px;
+    background-color: rgba(142, 172, 178, 0.2);
+}
+
+#new-task-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 90%;
+}
+
+#task-input{
+    width: 60%;
+    height: 60%;
+    font-size: 2vh;
+    background-color: white;
+    border: 2px solid rgb(2, 163, 243);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#task-input:focus{
+    border: 2px solid rgb(4, 91, 135);
+}
+
+#submit{
+    width: 30%;
+    height: 60%;
+    font-size: 2vh;
+    border: 2px solid rgb(2, 163, 243);
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(111, 194, 236);
+}
+
+#submit:hover{
+    background-color: rgb(26, 194, 232);
+}
